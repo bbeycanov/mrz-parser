@@ -8,7 +8,12 @@
 
 #example
 
-```return (new MRZParser)->parse('IAAZEAA197294805V77GY2<<<<<<<<9606195M3010068AZE<<<<<<<<<<<8BAYJANOV<<BAYJAN<<<<<<<<<<<<<<');```
+```$mrz = new MRZParser()```
+
+```return $mrz->parse('IAAZEAA197294805V77GY2<<<<<<<<9606195M3010068AZE<<<<<<<<<<<8BAYJANOV<<BAYJAN<<<<<<<<<<<<<<');```
+
+
+#response
 
 ```
 {
