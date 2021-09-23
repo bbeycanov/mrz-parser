@@ -1,5 +1,3 @@
-# mrz-parser
-
 # Run parser
 
 
